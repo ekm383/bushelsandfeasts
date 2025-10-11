@@ -121,21 +121,21 @@ const Index = () => {
               cuisine that celebrates the bounty of local ingredients and those
               who so beautifully craft that food.
             </p>
-            <p className="dessert-link">
+            {/* <p className="dessert-link">
               If you want to try some recipes from BUSHELS & FEASTS, get your{" "}
               <a href="https://www.10glutenandgrainfree.com/">
                 Free Dessert eBook
               </a>{" "}
               containing 10 irresistible, gluten and grain-free, real food
               desserts!
-            </p>
+            </p> */}
             <a
               className="cookbook-button"
               href="https://www.amazon.com/Bushels-Feasts-Recipes-Gluten-Lifestyle/dp/1735926213/ref=sr_1_1?dchild=1&keywords=bushels+and+feasts&qid=1606956534&sr=8-1"
               target="_blank"
               rel="noreferrer"
             >
-              <button> Buy Hardcover Cookbook </button>
+              <button> Buy Cookbook </button>
             </a>
             <a className="cookbook-button" href="/">
               <EbookButton label={"Buy eCookbook"} lineItems={[Bookitem]} />
@@ -440,7 +440,7 @@ const Index = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button> Buy Hardcover Cookbook </button>
+              <button> Buy Cookbook </button>
             </a>
             <a className="cookbook-button" href="/">
               <EbookButton label={"Buy eCookBook"} lineItems={[Bookitem]} />
